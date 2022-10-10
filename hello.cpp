@@ -2,6 +2,9 @@
 using namespace std;
 
 int main(){
-    cout << "Hello World!";
+    int adamski = 1;
+    int inter = 2;
+    int gesamt = adamski + inter;
+    cout << "Hello World!\t" << gesamt;
     return 0;
 }
