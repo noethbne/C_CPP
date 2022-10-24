@@ -49,7 +49,7 @@ int main(){
         }
 
         if(!shipsLeft){
-            cout << "Game Over, " << count - 7 << " missed Shots recorded";
+            cout << "Game Over, " << count - 7 << " missed Shots recorded\nDigge Hits fuer digge Chicks~~~~~~";
             break;
         }
 
