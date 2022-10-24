@@ -28,7 +28,7 @@ static void rechner(){
       case '-': zahl -= einlesen(); break;
       case '*': zahl *= einlesen(); break;
       case '/': zahl /= einlesen(); break;
-      default: cout << "Kein Rechenzeichen!!!\n"; return;
+      default:cout << "Operator nicht erkannt"; zahl += einlesen(); return;
    }
    
    cout << "Ergebnis: " << zahl;
